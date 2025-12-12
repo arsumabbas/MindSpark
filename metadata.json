@@ -1,0 +1,5 @@
+{
+  "name": "MindSpark AI",
+  "description": "An intelligent mobile-first study companion. Generate flashcards, drills, and quizzes on any topic instantly using Gemini 2.5 Flash.",
+  "requestFramePermissions": []
+}
