@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   define: {
-    // Vercel injects environment variables into process.env during the build.
+    // Environment variables from Netlify/Vercel are injected into process.env during the build.
     // We map this to the code's expected process.env.API_KEY.
     'process.env.API_KEY': JSON.stringify(process.env.API_KEY)
   }
